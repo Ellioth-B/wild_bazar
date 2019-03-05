@@ -99,6 +99,11 @@ a {
     background-color: grey;
 }
 
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.4em;
+}
+
 /* Carousel OMAR*/
 .card-text{
     color: grey;
