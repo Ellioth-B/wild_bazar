@@ -1,0 +1,34 @@
+/* Unicolor footer text */
+
+
+#contact{
+
+    text-align:center;
+    color: white;
+    font-size:2em;
+    padding-left: 10%;
+}
+.nav .nav-item .nav-link {
+
+    color:white !important;
+}
+
+label {
+
+    color:white;
+}
+
+nav{
+
+
+background-color:#9F928C;
+
+}
+
+/* Contact form screen < md */
+
+@media(max-width:991.98px){
+    #footcontact{
+        display:none;
+    }
+}
