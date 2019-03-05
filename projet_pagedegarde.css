@@ -1,6 +1,6 @@
 /* Unicolor footer text */
 
-
+/*FOOTER REMY*/
 #contact{
 
     text-align:center;
@@ -32,3 +32,26 @@ background-color:#9F928C;
         display:none;
     }
 }
+
+/*NAVBAR VALENTIN*/
+
+.barre {
+    justify-content: center;
+	padding-top: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+.tag_navbar {
+    position: relative;
+    top: 0.5em;
+    right: 2em;
+}
+
+
+.bg_test {
+    background-color: grey;
+}
+
