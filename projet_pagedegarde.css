@@ -105,7 +105,7 @@ a {
 
 /*couleur de fond test carousel*/
 .bg_carousel {
-    background-color: #393E46;
+    background-color: #222831;
 }
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
@@ -134,12 +134,7 @@ hr {
 
 /* decale les morceaux 'categories' pour les centrer avec le logo*/
 .navbar_position {
-    padding-top: 3%;
-}
-
-/* decale le logo sur la gauche pur respecter une marge*/
-.logo {
-    padding-left: 5%;
+    padding-top: 12%;
 }
 
 /* Carousel OMAR*/
