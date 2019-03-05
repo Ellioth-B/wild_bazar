@@ -105,3 +105,33 @@ a {
     background-color: grey;
 }
 
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.4em;
+}
+
+/* Carousel OMAR*/
+.card-text{
+    color: grey;
+    font-size: 15px;
+}
+.card-body{
+    background-color: #2A2C2C;
+}
+/* ABOUT US - Elliot */
+.about_title
+{
+    text-decoration: underline;
+}
+.about_logo
+{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+.about_citation
+{
+    float: right;
+    font-style: italic;
+    margin-right: 3%;
+}
