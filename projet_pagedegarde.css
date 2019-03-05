@@ -44,6 +44,12 @@ h5
 	font-family: 'PoliceTexte';
 	font-size: 2em;
 }
+
+.card
+{
+
+  box-shadow: 2px 1px 12px #555;  
+}
 /*FOOTER REMY*/
 #contact{
 
