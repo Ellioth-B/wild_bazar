@@ -99,3 +99,11 @@ a {
     background-color: grey;
 }
 
+/* Carousel OMAR*/
+.card-text{
+    color: grey;
+    font-size: 15px;
+}
+.card-body{
+    background-color: #2A2C2C;
+}
