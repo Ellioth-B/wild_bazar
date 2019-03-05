@@ -1,54 +1,56 @@
 /* Unicolor footer text */
 /*Top selling Emilie */
+
 @font-face {
     font-family: 'PoliceTitre';
-    src: url('assets/font/Nau Sea.otf');
+    src: url('Police/Nau Sea.otf');
 }
 @font-face {
     font-family: 'PoliceTexte';
-    src: url('assets/font/TarponMotel.ttf');
+    src: url('Police/TarponMotel.ttf');
 }
 
 #conteneur
 {
-	display: flex;
+    display: flex;
 }
 h2
 {
-	font-family: 'PoliceTitre';
-	text-align: center;
-	font-size: 4em;
-	color:#003EC2;
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 4em;
+    color:#003EC2;
 }
 h5
 {
-	font-family: 'PoliceTitre';
-	text-align: center;
-	font-size: 2em;
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 2em;
 }
 
 .accroche
 {
-	font-family: 'PoliceTexte';
-	text-align: center;
-	font-size: 2em;
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 2em;
 }
 .card-text
 {
-	font-family: 'PoliceTexte';
-	text-align: center;
-	font-size: 1em;
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 1em;
 }
 .card-footer
 {
-	font-family: 'PoliceTexte';
-	font-size: 2em;
+    font-family: 'PoliceTexte';
+    font-size: 2em;
 }
 
-.card
+.card, .container
 {
-
-  box-shadow: 2px 1px 12px #555;  
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
 /*FOOTER REMY*/
 #contact{
