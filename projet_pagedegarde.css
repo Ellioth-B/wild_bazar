@@ -83,31 +83,58 @@ background-color:#9F928C;
     }
 }
 
-/*NAVBAR VALENTIN*/
+/*//////////////////////////////////////////////////NAVBAR VALENTIN//////////////////////////////////////////////////*/
 
+/* barre separant les categories navbar */
 .barre {
     justify-content: center;
-	padding-top: 10px;
+    padding-top: 0.6em;
+    color: white;
+    
 }
 
+/* enleve les couleurs de bases bleu/violet des liens */
 a {
     color: inherit;
 }
 
-.tag_navbar {
-    position: relative;
-    top: 0.5em;
-    right: 2em;
+/* couleur de fond*/
+.bg_nav {
+    background-color: #222831;
 }
 
-
-.bg_test {
-    background-color: grey;
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color: #222831;
 }
-
+/* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.4em;
+    color: #00ADB5;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+hr {
+    color:#00ADB5;
+    border: solid 2px #00ADB5;
+    width: 50%;
+}
+.font_white {
+    color: white;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_position {
+    padding-top: 12%;
 }
 
 /* Carousel OMAR*/
