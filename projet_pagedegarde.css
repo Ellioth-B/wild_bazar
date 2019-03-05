@@ -75,6 +75,10 @@ background-color:#9F928C;
 
 }
 
+#visitcard a {
+color:white;
+}
+
 /* Contact form screen < md */
 
 @media(max-width:991.98px){
