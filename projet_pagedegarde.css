@@ -22,12 +22,8 @@ h2
     font-size: 4em;
     color:#00ADB5;
 }
-h5
-{
-    font-family: 'PoliceTitre';
-    text-align: center;
-    font-size: 2em;
-}
+
+
 
 .accroche
 {
@@ -130,6 +126,8 @@ color:white;
 /* Defini la couleur du bouton search*/
 .btn_search {
     color: #EEEEEE;
+    color: #00ADB5;
+    font-family: 'PoliceTitre';
 }
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
@@ -166,7 +164,16 @@ color:white;
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.2em;
-    color: #00ADB5;
+    color: #00ADB5 !important;
+}
+
+.title_police {
+    font-family: 'PoliceTitre';
+    color : #00ADB5;
+}
+
+.police_about_us {
+    color: #EEEEEE;
 }
 
 .nav_font:hover {
@@ -175,10 +182,16 @@ color:white;
     
 }
 
-hr {
-    color:#00ADB5;
-    border: solid 2px #00ADB5;
+.ligneHaut {
+    border-bottom: solid 2px #EEEEEE;
     width: 50%;
+    margin-left: 25%;
+}
+
+.ligneBas {
+    border-top: solid 2px #EEEEEE;
+    width: 50%;
+    margin-left: 25%;
 }
 .font_white {
     color: white;
@@ -188,7 +201,7 @@ hr {
 }
 
 /* decale les morceaux 'categories' pour les centrer avec le logo*/
-.navbar_position {
+.navbar_gap {
     padding-top: 2em;
 }
 
@@ -228,6 +241,7 @@ blockquote
     padding-top: 3%;
     padding-bottom: 0.1em;
     font-weight: bold;
+    color: #EEEEEE;
 
 }
 
@@ -237,50 +251,11 @@ blockquote
     width: 10em;
     height:10em;
     margin-left: 5%;
-    pad
-    
     }
-
-
-.element_adresse {
-    padding-bottom: 7em;
-    padding-left : 2em;
-    padding-top: -2em;
 }
 
-#footcontact{
-    text-align:center;
-}
-}
-
-#logobot {
-    width:7em;
-    height: 7em;
-    
-  
-
-}
-#logobot {
-    width: 10em;
-    height:10em;
-    margin-left: 5%;
-   
-    
-    }
-
-
-.element_adresse {
-    padding-bottom: 7em;
-    padding-left : 2em;
-    padding-top: -2em;
-}
-
-#footcontact{
-    text-align:center;
-}
-#adressmarkup {
-  
-    margin-left: -15%;
+.logo_gap {
+    padding-top: 2em;
 }
 
 #navfooter {
@@ -288,16 +263,17 @@ blockquote
     
 }
 
-button {
-
-    font-family: 'PoliceTitre';
-    text-align: center;
-    font-size: 2em; 
-}
-
 @media(max-width:991.98px){
     #logomarkup{
         display:none;
     }
 
+}
+
+.bg_white {
+    background-color: #EEEEEE;
+}
+
+body {
+    background-color: #393E46;
 }
