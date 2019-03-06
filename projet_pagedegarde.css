@@ -58,21 +58,11 @@ h5
     font-size:2em;
     padding-left: 10%;
 }
-.nav .nav-item .nav-link {
 
-    color:white !important;
-}
 
 label {
 
     color:white;
-}
-
-nav{
-
-
-background-color:#9F928C;
-
 }
 
 #visitcard a {
@@ -165,4 +155,22 @@ hr {
     float: right;
     font-style: italic;
     margin-right: 3%;
+}
+
+/* taille image */
+
+#logobot {
+    width: 10em;
+    height:10em;
+}
+
+.element_adresse {
+    padding-bottom: 7em;
+    padding-left: 2em;
+}
+
+@mediascreen(max-width:991.98px){
+    .element_adresse{
+
+    }
 }
