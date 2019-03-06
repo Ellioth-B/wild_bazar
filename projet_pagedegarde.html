@@ -296,8 +296,8 @@
               <option value="9">9</option>
               <option value="10+">10+</option>
             </select><br>
-            <button type="button" class="add-to-cart"/">Add to Basket</button> </div> </div> </div> </div> <!-- FOOTER
-              -->
+            <button type="button" class="add-to-cart"/">Add to Basket</button> </div> </div> </div> </div>
+             <!-- FOOTER-->
               <footer>
 
 
@@ -361,7 +361,55 @@
                     </div>
 
 
+                    <!-- Markup -->
+            <div class="markup">
 
+              <!-- Button trigger modal -->
+              <button type="button" class="btn_markup btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                More Info MarkUp
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalScrollableTitle">WildWare Informations</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                      <!-- Géolocalisation -->
+                      <div id="infoposition"></div>
+                      <script>
+                        function maPosition(position) {
+                          var infopos = "Position déterminée :\n";
+                          infopos += "Latitude : "+position.coords.latitude +"\n";
+                          infopos += "Longitude: "+position.coords.longitude+"\n";
+                          infopos += "Altitude : "+position.coords.altitude +"\n";
+                          document.getElementById("infoposition").innerHTML = infopos;
+                        }
+
+                        if(navigator.geolocation)
+                          navigator.geolocation.getCurrentPosition(maPosition);
+                        // Fonction de callback en cas de succès
+                        function surveillePosition(position) {
+                          var infopos = "Position déterminée :\n";
+                          infopos += "Latitude : "+position.coords.latitude +"\n";
+                          infopos += "Longitude: "+position.coords.longitude+"\n";
+                          infopos += "Altitude : "+position.coords.altitude +"\n";
+                          infopos += "Vitesse  : "+position.coords.speed +"\n";
+                          document.getElementById("infoposition").innerHTML = infopos;
+                        }
+
+                        // On déclare la variable survId afin de pouvoir par la suite annuler le suivi de la position
+                        var survId = navigator.geolocation.watchPosition(surveillePosition);
+                        // Annule le suivi de la position si nécessaire.
+                        navigator.geolocation.clearWatch(survId);
+                      </script>
 
 
 

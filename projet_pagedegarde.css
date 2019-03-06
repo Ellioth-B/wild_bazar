@@ -287,6 +287,20 @@ blockquote
     padding: 0 !important;
     
 }
+/* Boutton MarkeUp more info */
+.btn_markup
+{
+    margin-top: 15%;
+    margin-left: 2em;
+}
+.adress_markup
+{
+    font-style: bold;
+}
+.img_markup
+{
+    
+}
 
 button {
 
