@@ -115,9 +115,37 @@ color:white;
     
 }
 
+.logo {
+    padding-top: 1.2em;
+    padding-bottom: 0.9em;
+}
+/* couleur bouton burger */
+.btn_nav {
+    background-color: #EEEEEE;
+}
+
+/* Defini la couleur du bouton search*/
+.btn_search {
+    color: #EEEEEE;
+}
 /* enleve les couleurs de bases bleu/violet des liens */
-a {
+.navbar_position a {
     color: inherit;
+}
+
+/*Fixe la couleur sur le nom du logo*/
+.brand_name {
+    color:#00ADB5 !important;
+}
+
+/*supprime le logo en version mobile*/
+@media(max-width:991.98px){
+    .logo {
+        display:none;
+    }
+    .barre {
+        display:none;
+    }
 }
 
 /* couleur de fond*/
@@ -127,12 +155,12 @@ a {
 
 /*couleur de fond test carousel*/
 .bg_carousel {
-    background-color: #222831;
+    background-color: #393E46;
 }
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #00ADB5;
 }
 
@@ -156,7 +184,7 @@ hr {
 
 /* decale les morceaux 'categories' pour les centrer avec le logo*/
 .navbar_position {
-    padding-top: 12%;
+    padding-top: 2em;
 }
 
 /* Carousel OMAR*/
