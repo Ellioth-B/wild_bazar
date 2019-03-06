@@ -13,6 +13,7 @@
 #conteneur
 {
     display: flex;
+    color: inherit;
 }
 h2
 {
