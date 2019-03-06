@@ -121,7 +121,10 @@ color:white;
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: #EEEEEE;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border: solid;
+    text-decoration: #EEEEEE;
 }
 
 /* Defini la couleur du bouton search*/
@@ -140,12 +143,14 @@ color:white;
 
 /*supprime le logo en version mobile*/
 @media(max-width:991.98px){
-    .logo {
-        display:none;
-    }
     .barre {
         display:none;
     }
+    .logo {
+        height: 70%;
+        width: 70%;
+    }
+      
 }
 
 /* couleur de fond*/
