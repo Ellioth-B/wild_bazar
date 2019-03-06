@@ -198,20 +198,73 @@ blockquote
 
 }
 
-/* taille image */
-
-#logobot {
+/* taille image footer */
+@media(max-width:991.98px){
+    #logobot {
     width: 10em;
     height:10em;
-}
+    margin-left: 5%;
+    pad
+    
+    }
+
 
 .element_adresse {
     padding-bottom: 7em;
-    padding-left: 2em;
+    padding-left : 2em;
+    padding-top: -2em;
 }
 
-@mediascreen(max-width:991.98px){
-    .element_adresse{
+#footcontact{
+    text-align:center;
+}
+}
 
+#logobot {
+    width:7em;
+    height: 7em;
+    
+  
+
+}
+#logobot {
+    width: 10em;
+    height:10em;
+    margin-left: 5%;
+   
+    
     }
+
+
+.element_adresse {
+    padding-bottom: 7em;
+    padding-left : 2em;
+    padding-top: -2em;
+}
+
+#footcontact{
+    text-align:center;
+}
+#adressmarkup {
+  
+    margin-left: -15%;
+}
+
+#navfooter {
+    padding: 0 !important;
+    
+}
+
+button {
+
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 2em; 
+}
+
+@media(max-width:991.98px){
+    #logomarkup{
+        display:none;
+    }
+
 }
