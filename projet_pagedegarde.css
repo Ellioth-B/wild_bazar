@@ -85,21 +85,15 @@ h5
     font-size:2em;
     padding-left: 10%;
 }
-.nav .nav-item .nav-link {
 
-    color:white !important;
-}
 
 label {
 
     color:white;
 }
 
-nav{
-
-
-background-color:#9F928C;
-
+#visitcard a {
+color:white;
 }
 
 /* Contact form screen < md */
@@ -110,31 +104,58 @@ background-color:#9F928C;
     }
 }
 
-/*NAVBAR VALENTIN*/
+/*//////////////////////////////////////////////////NAVBAR VALENTIN//////////////////////////////////////////////////*/
 
+/* barre separant les categories navbar */
 .barre {
     justify-content: center;
-	padding-top: 10px;
+    padding-top: 0.6em;
+    color: white;
+    
 }
 
+/* enleve les couleurs de bases bleu/violet des liens */
 a {
     color: inherit;
 }
 
-.tag_navbar {
-    position: relative;
-    top: 0.5em;
-    right: 2em;
+/* couleur de fond*/
+.bg_nav {
+    background-color: #222831;
 }
 
-
-.bg_test {
-    background-color: grey;
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color: #222831;
 }
-
+/* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.4em;
+    color: #00ADB5;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+hr {
+    color:#00ADB5;
+    border: solid 2px #00ADB5;
+    width: 50%;
+}
+.font_white {
+    color: white;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_position {
+    padding-top: 12%;
 }
 
 /* Carousel OMAR*/
@@ -168,6 +189,7 @@ blockquote
 }
 .sousTitre
 {
+<<<<<<< HEAD
     font-family: 'PoliceTexte';
     font-size: 1em;
     padding-top: 3%;
@@ -175,3 +197,27 @@ blockquote
     font-weight: bold;
 
 }
+=======
+    float: right;
+    font-style: italic;
+    margin-right: 3%;
+}
+
+/* taille image */
+
+#logobot {
+    width: 10em;
+    height:10em;
+}
+
+.element_adresse {
+    padding-bottom: 7em;
+    padding-left: 2em;
+}
+
+@mediascreen(max-width:991.98px){
+    .element_adresse{
+
+    }
+}
+>>>>>>> 90d3a914cd40f1c671099cf12e25817c23cef81d
