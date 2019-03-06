@@ -1,5 +1,6 @@
 /* Unicolor footer text */
 /*Top selling Emilie */
+
 @font-face {
     font-family: 'PoliceTitre';
     src: url('assets/font/Nau Sea.otf');
@@ -11,45 +12,71 @@
 
 #conteneur
 {
-	display: flex;
+    display: flex;
 }
 h2
 {
-	font-family: 'PoliceTitre';
-	text-align: center;
-	font-size: 4em;
-	color:#003EC2;
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 4em;
+    color:#00ADB5;
 }
 h5
 {
-	font-family: 'PoliceTitre';
-	text-align: center;
-	font-size: 2em;
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 2em;
 }
 
 .accroche
 {
-	font-family: 'PoliceTexte';
-	text-align: center;
-	font-size: 2em;
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 2em;
 }
 .card-text
 {
-	font-family: 'PoliceTexte';
-	text-align: center;
-	font-size: 1em;
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 1em;
 }
 .card-footer
 {
-	font-family: 'PoliceTexte';
-	font-size: 2em;
+    font-family: 'PoliceTexte';
+    font-size: 1.4em;
+    background-color: #EEEEEE;
 }
-
-.card
+.card-body.emi
 {
-
-  box-shadow: 2px 1px 12px #555;  
+    background-color: white;
 }
+
+.card, .container, .card-footer
+{
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+.add-to-cart
+{
+    border-radius: 10px;
+    background-color: #393E46;
+    color:#00ADB5;
+}
+.quantiteEmi
+{
+    color:#00ADB5;
+}
+#qt
+{
+    font-size: 0.7em;
+    background-color: #EEEEEE;
+}
+.container.mt-4.emi
+{
+    padding-bottom: 11px;
+}
+
 /*FOOTER REMY*/
 #contact{
 
@@ -119,19 +146,32 @@ a {
     background-color: #2A2C2C;
 }
 /* ABOUT US - Elliot */
-.about_title
-{
-    text-decoration: underline;
-}
+
 .about_logo
 {
     float: left;
     margin-right: 2%;
     margin-bottom: 1%;
 }
-.about_citation
+blockquote
 {
-    float: right;
-    font-style: italic;
-    margin-right: 3%;
+  font-style: normal;
+  font-size: 1em;
+  margin-left: 50%;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+}
+.about
+{
+    font-family: 'PoliceTexte'
+}
+.sousTitre
+{
+    font-family: 'PoliceTexte';
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+
 }
