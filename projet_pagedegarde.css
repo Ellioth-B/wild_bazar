@@ -189,18 +189,12 @@ blockquote
 }
 .sousTitre
 {
-<<<<<<< HEAD
     font-family: 'PoliceTexte';
     font-size: 1em;
     padding-top: 3%;
     padding-bottom: 0.1em;
     font-weight: bold;
 
-}
-=======
-    float: right;
-    font-style: italic;
-    margin-right: 3%;
 }
 
 /* taille image */
@@ -220,4 +214,3 @@ blockquote
 
     }
 }
->>>>>>> 90d3a914cd40f1c671099cf12e25817c23cef81d
