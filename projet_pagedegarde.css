@@ -51,8 +51,8 @@ h2
 .card, .container, .card-footer
 {
     box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
--moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
--webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
 .add-to-cart
 {
@@ -90,7 +90,7 @@ label {
 }
 
 #visitcard a {
-color:white;
+    color:white;
 }
 
 /* Contact form screen < md */
@@ -148,7 +148,7 @@ color:white;
         height: 70%;
         width: 70%;
     }
-      
+    
 }
 
 /* couleur de fond*/
@@ -248,9 +248,9 @@ blockquote
 /* taille image footer */
 @media(max-width:991.98px){
     #logobot {
-    width: 10em;
-    height:10em;
-    margin-left: 5%;
+        width: 10em;
+        height:10em;
+        margin-left: 5%;
     }
 }
 
@@ -261,6 +261,23 @@ blockquote
 #navfooter {
     padding: 0 !important;
     
+}
+/* Boutton MarkeUp more info */
+.btn_markup
+{
+    border-radius: 10px;
+}
+.maps
+{
+    margin: 5%;
+}
+.text_markup
+{
+    font-weight: bold;
+}
+.img_markup
+{
+    margin-left: 25%;
 }
 
 @media(max-width:991.98px){
