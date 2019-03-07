@@ -248,6 +248,27 @@ label {
     padding-top: 2em;
 }
 
+#navfooter {
+    padding: 0 !important;
+    
+}
+/* Boutton MarkeUp more info */
+.btn_markup
+{
+    border-radius: 10px;
+}
+.maps
+{
+    margin: 5%;
+}
+.text_markup
+{
+    font-weight: bold;
+}
+.img_markup
+{
+    margin-left: 25%;
+}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -260,6 +281,7 @@ label {
     background-color: white;
 }
 
+<<<<<<< HEAD
 body {
     background-color:white;
 
@@ -277,11 +299,14 @@ body {
         color: white ;
     }
  
+=======
+body 
+>>>>>>> dateFeature
 }
 >>>>>>> hofix/bestsellers
 
+/* quotes width <768px */
 
-/* about us */
 
 blockquote
 {
@@ -293,3 +318,9 @@ blockquote
   padding-left: 8px;
   
 }
+<<<<<<< HEAD
+=======
+.btn_markup.btn-outline-secondary{
+    color:black;
+}
+>>>>>>> dateFeature
