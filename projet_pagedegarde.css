@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align: left;
     font-size: 1em;
 }
 .card-footer
@@ -264,6 +264,21 @@ body {
     background-color:white;
 
 }
+<<<<<<< HEAD
+=======
+.center{
+    width: 150px;
+      margin: 10px auto;
+      
+    }
+    .input-group-btn
+    {
+        background-color: black;
+        color: white ;
+    }
+ 
+}
+>>>>>>> hofix/bestsellers
 
 
 /* about us */
