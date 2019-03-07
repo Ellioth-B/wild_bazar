@@ -2,43 +2,388 @@
 
 <html lang="en">
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="projet_pagedegarde.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="projet_pagedegarde.css">
+
+  <title>WildWare shop</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="bg_carousel container-fluid">
+    <div class="row">
+      <div class="col-12 navbar_position navbar_gap">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler btn_nav" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="brand_name navbar-brand nav_font" href="projet_pagedegarde.html"><img class=logo
+            src="assets/image/logo_last.png" alt="logo"></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active nav_font">
+                <a class="nav-link" href="#">Health<span class="sr-only">(current)</span></a>
+              </li>
+              <p class="barre">
+                |
+              </p>
+              <li class="nav-item nav_font">
+                <a class="nav-link" href="#">Watches</a>
+              </li>
+              <p class="barre">
+                |
+              </p>
+              <li class="nav-item nav_font">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <p class="barre">
+                |
+              </p>
+              <li class="nav-item nav_font">
+                <a class="nav-link" href="#">Audio</a>
+              </li>
+              <p class="barre">
+                |
+              </p>
+              <li class="nav-item nav_font">
+                <a class="nav-link" href="#">Best Sellers</a>
+              </li>
+              <p class="barre">
+                |
+              </p>
+              <li class="nav-item nav_font">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search products" aria-label="Search">
+              <button class="btn btn_search btn-outline my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="ligneHaut"></div>
+  </div>
+
+  <div class="container-fluid bg_carousel">
+    <div class="col-lg-12">
+      <h2 class="text-center title_police">WildWare</h2>
+      <p class="text-center font_white">On trouve de tout et de n'importe quoi !</p>
+    </div>
+  </div>
+
+  <!-- CAROUSSEL -->
+  <!--carousel-->
+  <div class="container-fluid bg_carousel">
+    <div class="bd-example container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/image/Carousel_1.jpg" class="d-block w-100" alt="..." height="450">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Watch out for our next headset !</h5>
+              <p>Better look, twice the performance.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/Carousel_2.jpg" class="d-block w-100" alt="..." height="450">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Smart watches !</h5>
+              <p>So light, you barely feel them.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/Carousel_maintenance.jpg" class="d-block w-100" alt="..." height="450">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maintenance team, customer first !</h5>
+              <p>Learn more about our customer's satisfaction policy.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--Catégories-->
+  <div class="container-fluid mt-4">
+    <div class="row justify-content-center">
+      <div class="card_1 col- col-md-4 pt-4">
+        <a href="projetpage2.html"> <img src="assets/image/montres/Watch.jpeg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text">To be on time and connected!</p>
+        </div>
+      </div>
+      <div class="card_2 col- col-md-4 pt-4">
+        <img src="assets/image/montres/Watch.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">To be on time and connected!</p>
+        </div>
+      </div>
+      <div class="card_3 col- col-md-4 pt-4">
+        <img src="assets/image/montres/Watch.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">To be on time and connected!</p>
+        </div>
+      </div>
+    </div>
   
-    <title>WildWare</title>
-  </head>
-
-  <body>
-
-    <!-- NAVBAR -->
-
-
-    <!-- CAROUSSEL -->
-    
-
-    <!-- CATEGORIES -->
-
-
-    <!-- ABOUT US -->
-
-
-    <!-- TOP SELLING -->
-
-
-    <!-- FOOTER -->
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<div class="row justify-content-center">
+  <div class="card_4 col- col-md-4 pt-4">
+    <img src="assets/image/montres/Watch.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">To be on time and connected!</p>
+    </div>
+  </div>
+  <div class="card_5 col- col-md-4 pt-4">
+    <img src="assets/image/montres/Watch.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">To be on time and connected!</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- ABOUT US -->
+<div class="container-fluid">
+    <div class="ligneHaut"></div>
+  <div class="container mt-4 bg_carousel">
+    <div class="about">
+      <h2 class="about_title">About us</h2>
+      <p class="about_text">
+        <img class="about_logo" src="assets/image/logo_last.png">
+        <p class="police_about_us">Wildware was founded in 2019 by 3 developers and 3 commercials, with the aim of selling connected items.
+              The name of the company means "Wild Article", referring to the school where the 6 people met.
+              Wildware is a young start-up specializing in the marketing of the "Headset", a headset for receiving and
+          making calls, as well as listening to music online with a voice command, without any visual
+          interference.Currently, the products sold are expanding in many new ranges around connected objects.
+          <p class="sousTitre">OUR SIXTH SENSE, THE SERVICE !!!</p>
+          <p class="police_about_us">WildWare commits!
+            95% of the orders placed on the WildWare site are delivered in 24h (Metropolitan France).
+            For orders placed before noon, our partner Chronopost is committed to deliver the next day before 13h.(from
+          Monday to Friday)</p>
+
+          <p class="sousTitre">COMPARE FOR WHAT? </p>
+          <p class="police_about_us">Convinced to offer you the best prices, WildWare refunds you 2x the difference if you find cheaper elsewhere.</p>
+          <p class="sousTitre">ENJOY FREELY !!!</p>
+          <p class="police_about_us">WildWare warrants your equipment 3 years. Once again WildWare is committed to you by offering you a free 3
+            year warranty on your new hardware. In addition to legal warranties and 1-year contractual warranties,
+            WildWare offers a 3-year warranty extension, which extends the 2-year contractual warranty for a total of 4
+          years warranty.
+        </p><br />
+
+        <blockquote class="about_citation police_about_us">
+          <p>"we consider our guests as guests at a party where we are guests. it is our job to improve their experience
+          a little more each day." -- " Jeff Bezos CEO Amazon"</p>
+        </blockquote>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- TOP SELLING -->
+<div class="container mt-4 emi bg_carousel">
+  <h2 class="Top Selling">Best Sellers</h2>
+  <div class="accroche">
+    <p class="police_about_us">Stay connected with the top three of our best sales</p>
+  </div>
+  <div id="conteneur">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="assets/image/casque.jpg" alt="Card image cap">
+        <div class="card-body emi">
+          <h5 class="card-title">WildWare Sound</h5>
+          <p class="card-text">Thanks to the technologies .......... integrated into the Wildware Soundlink headset,
+            you will enjoy a sound that is as clear as powerful and whatever the listening volume. So you (re)
+            discover your favorite music tracks, you will perceive each instrument and each note as if you were next
+            to your favorite artists. In addition to excellent sound quality, the Wildware Soundlink headset offers a
+          sleek design and optimum comfort. He is ready to follow you all day and he will withstand shocks..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">From ......... €</small><br />
+          <label class="quantiteEmi" for="q">Quantity: </label>
+          <select id="qt" name="q">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10+">10+</option>
+          </select><br>
+          <button type="button" class="add-to-cart">Add to Basket</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/image/montre.jpg" alt="Card image cap">
+        <div class="card-body emi">
+          <h5 class="card-title">WildWare Watch</h5>
+          <p class="card-text">The WildWare watch has many features very practical for athletes, such as a built-in
+            GPS, but also a coach. There are applications sport and well-being.
+            In everyday life, you will love to be able to consult your watch whenever you want to keep abreast of the
+            news, see the weather, use it as mood light, help you find your smartphone ... It is also endowed a
+          microphone and a speaker that provide a clean and efficient sound.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">From ......... €</small><br />
+          <label class="quantiteEmi" for="q">Quantity: </label>
+          <select id="qt" name="q">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10+">10+</option>
+          </select><br>
+          <button type="button" class="add-to-cart">Add to Basket</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/image/chargeur.jpg" alt="Card image cap">
+        <div class="card-body emi">
+          <h5 class="card-title">WildWare Boost</h5>
+          <p class="card-text">Ideal charging station WildWare BOOST is a 3-in-1 solution that allows you to charge
+            your major mobile devices. The induction charger charges your connected device at the fastest possible
+            speed. It allows you to simultaneously charge another additional device. You get three devices recharged
+          from one and the same electrical outlet.</p>
+        </div>
+        <div class="card-footer ">
+          <small class="text-muted">From ......... €</small><br />
+          <label class="quantiteEmi" for="q">Quantity: </label>
+          <select id="qt" name="q">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10+">10+</option>
+          </select><br>
+          <button type="button" class="add-to-cart"/">Add to Basket</button> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+
+  <!-- FOOTER-->
+  <footer>
+    <!--Links columns-->
+    <div class="container-fluid bg_nav" id="navfooter">
+      <nav class="nav row">
+  
+        <ul class="nav flex-column col-6 col-md-6 col-lg-4">
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">About us</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Best Sellers</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Legal mentions</a></li>
+        </ul>
+        
+        <ul class="nav flex-column col-6 col-md-6 col-lg-4">
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Health</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Watches</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Audio</a></li>
+          <li class="nav-item nav_font navbar_position"><a class="nav-link" href="#">Best Sellers</a></li>
+        </ul>
+
+        <!--logo div-->
+
+        <div class="col-4 col-md-4 col-lg-4 logo_gap" id="logomarkup">
+          <ul class="nav">
+            <li class="nav-item nav_font gap_logo_footer">
+              <p><img class="nav-link" id="logobot" src="assets/image/logo_last.png"></p>
+            </li>
+            <li class="nav-item nav_font" id="adressmarkup">
+              <div class="dropdown">
+                <div id="footmark" class="markup">
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn_markup btn-outline-secondary" data-toggle="modal" data-target="#exampleModalScrollable">
+                    More Info MarkUp
+                  </button>
+            
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalScrollableTitle">WildWare Informations</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.2576296494!2d4.826265559727667!3d45.74598083434815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ab96b2285%3A0xd07b1fb24dc8242f!2s17+Rue+Delandine%2C+69002+Lyon!5e0!3m2!1sfr!2sfr!4v1551886508590" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          <p>
+                            <span class="text_markup">Adress :</span> <a href="https://www.google.fr/maps/place/17+Rue+Delandine,+69002+Lyon/@45.7461605,4.8253322,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ea4ab96b2285:0xd07b1fb24dc8242f!8m2!3d45.7461568!4d4.8275262" target="_blanck">10 rue Delandine, 69008 Lyon</a><br>
+                            <span class="text_markup">Phone :</span> 12.34.56.78.90<br>
+                            <span class="text_markup">Mail :</span> <a href="example@outlook.fr" target="_blanck">example@outlook.fr</a>
+                          </p>
+                          <p class="img_markup">
+                            <img class="nav-link" src="assets/image/logo_last.png">
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+   
+</nav>
+</div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+</body>
+
 </html>

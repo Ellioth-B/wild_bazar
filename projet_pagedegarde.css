@@ -1,0 +1,290 @@
+/* Unicolor footer text */
+/*Top selling Emilie */
+
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('assets/font/Nau Sea.otf');
+}
+@font-face {
+    font-family: 'PoliceTexte';
+    src: url('assets/font/Hind-Light.ttf');
+}
+
+#conteneur
+{
+    display: flex;
+    color: inherit;
+}
+h2
+{
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 4em;
+    color:black;
+}
+
+
+
+.accroche
+{
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 2em;
+}
+.card-text
+{
+    font-family: 'PoliceTexte';
+    text-align: left;
+    font-size: 1em;
+}
+.card-footer
+{
+    font-family: 'PoliceTexte';
+    font-size: 1.4em;
+    background-color: white;
+}
+.card-body.emi
+{
+    background-color: white;
+}
+
+
+.add-to-cart
+{
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+}
+.quantiteEmi
+{
+    color:black;
+}
+#qt
+{
+    font-size: 0.7em;
+    background-color: white;
+}
+.container.mt-4.emi
+{
+    padding-bottom: 11px;
+}
+
+/*FOOTER REMY*/
+#contact{
+
+    text-align:center;
+    color: white;
+    font-size:2em;
+    padding-left: 10%;
+}
+
+
+label {
+
+    color:white;
+}
+
+#visitcard a {
+    color:white;
+}
+
+/* Contact form screen < md */
+
+@media(max-width:991.98px){
+    #footcontact{
+        display:none;
+    }
+}
+
+/*//////////////////////////////////////////////////NAVBAR VALENTIN//////////////////////////////////////////////////*/
+
+/* barre separant les categories navbar */
+.barre {
+    justify-content: center;
+    padding-top: 0.6em;
+    color: #00ADB5;
+    
+}
+
+.logo {
+    padding-top: 1.2em;
+    padding-bottom: 0.9em;
+}
+/* couleur bouton burger */
+.btn_nav {
+    background-color: black;
+    color: white;
+    border: solid;
+    text-decoration: #00ADB5;
+}
+
+/* Defini la couleur du bouton search*/
+.btn_search {
+    outline-color: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+}
+/* enleve les couleurs de bases bleu/violet des liens */
+.navbar_position a {
+    color: inherit;
+}
+
+/*Fixe la couleur sur le nom du logo*/
+.brand_name {
+    color:black !important;
+}
+
+/*supprime le logo en version mobile*/
+@media(max-width:991.98px){
+    .barre {
+        display:none;
+    }
+    .logo {
+        height: 70%;
+        width: 70%;
+    }
+    
+}
+
+/* couleur de fond*/
+.bg_nav {
+    background-color: white;
+}
+
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color:white;
+}
+/* fixe la police et couleur des categories navbar*/
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.2em;
+    color: black !important;
+}
+
+.title_police, .about_title, .Top.Selling, .nav-link {
+    font-family: 'PoliceTitre';
+    color : black;
+    text-shadow : 2px 2px 5px #aaa;
+}
+
+.police_about_us {
+    color: black;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+    
+}
+
+.ligneHaut {
+    border-bottom: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ligneBas {
+    border-top: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+.font_white {
+    color: #00ADB5;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_gap {
+    padding-top: 2em;
+}
+
+/* Carousel OMAR*/
+.card-text{
+    color: grey;
+    font-size: 15px;
+}
+.card-body{
+    background-color: #2A2C2C;
+}
+/* ABOUT US - Elliot */
+
+.about_logo
+{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.about
+{
+    font-family: 'PoliceTexte'
+}
+.sousTitre
+{
+    font-family: 'PoliceTexte';
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    color: black;
+
+}
+
+/* taille image footer */
+@media(max-width:991.98px){
+    #logobot {
+        width: 10em;
+        height:10em;
+        margin-left: 5%;
+    }
+}
+
+.logo_gap {
+    padding-top: 2em;
+}
+
+
+@media(max-width:991.98px){
+    #logomarkup{
+        display:none;
+    }
+
+}
+
+.bg_white {
+    background-color: white;
+}
+
+body {
+    background-color:white;
+
+}
+.center{
+    width: 150px;
+      margin: 10px auto;
+      
+    }
+    .input-group-btn
+    {
+        background-color: black;
+        color: white ;
+    }
+ 
+}
+
+
+/* about us */
+
+blockquote
+{
+  font-style: normal;
+  font-size: 1em;
+  margin-left: -5px;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+  
+}
