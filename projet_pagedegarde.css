@@ -20,7 +20,7 @@ h2
     font-family: 'PoliceTitre';
     text-align: center;
     font-size: 4em;
-    color:#00ADB5;
+    color:#f4442e;
 }
 
 
@@ -58,11 +58,11 @@ h2
 {
     border-radius: 10px;
     background-color: #393E46;
-    color:#00ADB5;
+    color:#f4442e;
 }
 .quantiteEmi
 {
-    color:#00ADB5;
+    color:#f4442e;
 }
 #qt
 {
@@ -107,7 +107,7 @@ label {
 .barre {
     justify-content: center;
     padding-top: 0.6em;
-    color: white;
+    color: #f4442e;
     
 }
 
@@ -117,7 +117,7 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: #00ADB5;
+    background-color: #f4442e;
     color: #EEEEEE;
     border: solid;
     text-decoration: #EEEEEE;
@@ -126,7 +126,7 @@ label {
 /* Defini la couleur du bouton search*/
 .btn_search {
     color: #EEEEEE;
-    color: #00ADB5;
+    color: #f4442e
     font-family: 'PoliceTitre';
 }
 /* enleve les couleurs de bases bleu/violet des liens */
@@ -136,7 +136,7 @@ label {
 
 /*Fixe la couleur sur le nom du logo*/
 .brand_name {
-    color:#00ADB5 !important;
+    color:#f4442e
 }
 
 /*supprime le logo en version mobile*/
@@ -153,23 +153,23 @@ label {
 
 /* couleur de fond*/
 .bg_nav {
-    background-color: #222831;
+    background-color: #EEEEEE;
 }
 
 /*couleur de fond test carousel*/
 .bg_carousel {
-    background-color: #393E46;
+    background-color: #EEEEEE;
 }
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.2em;
-    color: #00ADB5 !important;
+    color: Black !important;
 }
 
 .title_police {
     font-family: 'PoliceTitre';
-    color : #00ADB5;
+    color : Black;
 }
 
 .police_about_us {
@@ -178,18 +178,18 @@ label {
 
 .nav_font:hover {
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: #f4442e;
     
 }
 
 .ligneHaut {
-    border-bottom: solid 2px #EEEEEE;
+    border-bottom: solid 2px #f4442e;
     width: 50%;
     margin-left: 25%;
 }
 
 .ligneBas {
-    border-top: solid 2px #EEEEEE;
+    border-top: solid 2px #f4442e;
     width: 50%;
     margin-left: 25%;
 }
@@ -197,7 +197,7 @@ label {
     color: white;
 }
 .font_bleu {
-    color: #00ADB5;
+    color: #fc9e4f;
 }
 
 /* decale les morceaux 'categories' pour les centrer avec le logo*/
@@ -227,7 +227,7 @@ blockquote
   font-size: 1em;
   margin-left: 50%;
   font-family: Consolas, "PoliceTexte";
-  border-left: 4px solid #00ADB5;
+  border-left: 4px solid #f4442e;
   padding-left: 8px;
 }
 .about
@@ -292,5 +292,5 @@ blockquote
 }
 
 body {
-    background-color: #393E46;
+    background-color: #EEEEEE;
 }
