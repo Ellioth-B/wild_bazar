@@ -221,15 +221,6 @@ label {
     margin-right: 2%;
     margin-bottom: 1%;
 }
-blockquote
-{
-  font-style: normal;
-  font-size: 1em;
-  margin-left: 50%;
-  font-family: Consolas, "PoliceTexte";
-  border-left: 4px solid #f4442e;
-  padding-left: 8px;
-}
 .about
 {
     font-family: 'PoliceTexte'
@@ -292,5 +283,19 @@ blockquote
 }
 
 body {
-    background-color: #EEEEEE;
+    background-color: #393E46;
+}
+
+/* quotes width <768px */
+
+
+blockquote
+{
+  font-style: normal;
+  font-size: 1em;
+  margin-left: -5px;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+  
 }
