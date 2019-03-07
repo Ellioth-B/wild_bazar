@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: left;
+    text-align: center;
     font-size: 1em;
 }
 .card-footer
@@ -101,9 +101,8 @@ label {
 /* barre separant les categories navbar */
 .barre {
     justify-content: center;
+    padding-top: 0.6em;
     color: #00ADB5;
-    font-size: 1.5em;
-    padding-top: 0.2em;
     
 }
 
@@ -124,7 +123,6 @@ label {
     outline-color: #00ADB5;
     color: black;
     font-family: 'PoliceTitre';
-    font-size: 1.5em;
 }
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
@@ -160,7 +158,7 @@ label {
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black !important;
 }
 
@@ -181,18 +179,18 @@ label {
 }
 
 .ligneHaut {
-    border-bottom: solid 3px #00ADB5;
+    border-bottom: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 
 .ligneBas {
-    border-top: solid 3px #00ADB5;
+    border-top: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 .font_white {
-    color: black;
+    color: #00ADB5;
 }
 .font_bleu {
     color: #00ADB5;
@@ -248,27 +246,6 @@ label {
     padding-top: 2em;
 }
 
-#navfooter {
-    padding: 0 !important;
-    
-}
-/* Boutton MarkeUp more info */
-.btn_markup
-{
-    border-radius: 10px;
-}
-.maps
-{
-    margin: 5%;
-}
-.text_markup
-{
-    font-weight: bold;
-}
-.img_markup
-{
-    margin-left: 25%;
-}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -281,13 +258,11 @@ label {
     background-color: white;
 }
 
-<<<<<<< HEAD
 body {
+<<<<<<< HEAD
     background-color:white;
 
 }
-<<<<<<< HEAD
-=======
 .center{
     width: 150px;
       margin: 10px auto;
@@ -298,15 +273,12 @@ body {
         background-color: black;
         color: white ;
     }
- 
 =======
-body 
->>>>>>> dateFeature
+    background-color: #393E46;
 }
->>>>>>> hofix/bestsellers
 
-/* quotes width <768px */
 
+/* about us */
 
 blockquote
 {
@@ -318,9 +290,4 @@ blockquote
   padding-left: 8px;
   
 }
-<<<<<<< HEAD
-=======
-.btn_markup.btn-outline-secondary{
-    color:black;
-}
->>>>>>> dateFeature
+>>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
