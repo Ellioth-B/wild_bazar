@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: 'PoliceTexte';
-    src: url('assets/font/TarponMotel.ttf');
+    src: url('assets/font/Hind-Light.ttf');
 }
 
 #conteneur
@@ -20,7 +20,7 @@ h2
     font-family: 'PoliceTitre';
     text-align: center;
     font-size: 4em;
-    color:#00ADB5;
+    color:black;
 }
 
 
@@ -41,33 +41,28 @@ h2
 {
     font-family: 'PoliceTexte';
     font-size: 1.4em;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 .card-body.emi
 {
     background-color: white;
 }
 
-.card, .container, .card-footer
-{
-    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-}
+
 .add-to-cart
 {
     border-radius: 10px;
-    background-color: #393E46;
-    color:#00ADB5;
+    background-color: white;
+    color:black;
 }
 .quantiteEmi
 {
-    color:#00ADB5;
+    color:black;
 }
 #qt
 {
     font-size: 0.7em;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 .container.mt-4.emi
 {
@@ -107,7 +102,7 @@ label {
 .barre {
     justify-content: center;
     padding-top: 0.6em;
-    color: white;
+    color: #00ADB5;
     
 }
 
@@ -117,16 +112,16 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: #00ADB5;
-    color: #EEEEEE;
+    background-color: black;
+    color: white;
     border: solid;
-    text-decoration: #EEEEEE;
+    text-decoration: #00ADB5;
 }
 
 /* Defini la couleur du bouton search*/
 .btn_search {
-    color: #EEEEEE;
-    color: #00ADB5;
+    outline-color: #00ADB5;
+    color: black;
     font-family: 'PoliceTitre';
 }
 /* enleve les couleurs de bases bleu/violet des liens */
@@ -136,7 +131,7 @@ label {
 
 /*Fixe la couleur sur le nom du logo*/
 .brand_name {
-    color:#00ADB5 !important;
+    color:black !important;
 }
 
 /*supprime le logo en version mobile*/
@@ -153,48 +148,49 @@ label {
 
 /* couleur de fond*/
 .bg_nav {
-    background-color: #222831;
+    background-color: white;
 }
 
 /*couleur de fond test carousel*/
 .bg_carousel {
-    background-color: #393E46;
+    background-color:white;
 }
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.2em;
-    color: #00ADB5 !important;
+    color: black !important;
 }
 
-.title_police {
+.title_police, .about_title, .Top.Selling, .nav-link {
     font-family: 'PoliceTitre';
-    color : #00ADB5;
+    color : black;
+    text-shadow : 2px 2px 5px #aaa;
 }
 
 .police_about_us {
-    color: #EEEEEE;
+    color: black;
 }
 
 .nav_font:hover {
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: #00ADB5;
     
 }
 
 .ligneHaut {
-    border-bottom: solid 2px #EEEEEE;
+    border-bottom: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 
 .ligneBas {
-    border-top: solid 2px #EEEEEE;
+    border-top: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 .font_white {
-    color: white;
+    color: #00ADB5;
 }
 .font_bleu {
     color: #00ADB5;
@@ -241,7 +237,7 @@ blockquote
     padding-top: 3%;
     padding-bottom: 0.1em;
     font-weight: bold;
-    color: #EEEEEE;
+    color: black;
 
 }
 
@@ -288,9 +284,20 @@ blockquote
 }
 
 .bg_white {
-    background-color: #EEEEEE;
+    background-color: white;
 }
 
 body {
-    background-color: #393E46;
+    background-color:white;
+
 }
+.center{
+    width: 150px;
+      margin: 10px auto;
+      
+    }
+    .input-group-btn
+    {
+        background-color: black;
+        color: white ;
+    }
