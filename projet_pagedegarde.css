@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align: left;
     font-size: 1em;
 }
 .card-footer
@@ -247,27 +247,6 @@ label {
     padding-top: 2em;
 }
 
-#navfooter {
-    padding: 0 !important;
-    
-}
-/* Boutton MarkeUp more info */
-.btn_markup
-{
-    border-radius: 10px;
-}
-.maps
-{
-    margin: 5%;
-}
-.text_markup
-{
-    font-weight: bold;
-}
-.img_markup
-{
-    margin-left: 25%;
-}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -284,9 +263,24 @@ body {
     background-color:white;
 
 }
+<<<<<<< HEAD
+=======
+.center{
+    width: 150px;
+      margin: 10px auto;
+      
+    }
+    .input-group-btn
+    {
+        background-color: black;
+        color: white ;
+    }
+ 
+}
+>>>>>>> hofix/bestsellers
 
-/* quotes width <768px */
 
+/* about us */
 
 blockquote
 {
