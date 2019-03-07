@@ -250,28 +250,6 @@ label {
     padding-top: 2em;
 }
 
-#navfooter {
-    
-
-    
-}
-/* Boutton MarkeUp more info */
-.btn_markup
-{
-    border-radius: 10px;
-}
-.maps
-{
-    margin: 5%;
-}
-.text_markup
-{
-    font-weight: bold;
-}
-.img_markup
-{
-    margin-left: 25%;
-}
 
 @media(max-width:991.98px){
     #logomarkup{
