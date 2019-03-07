@@ -248,27 +248,6 @@ label {
     padding-top: 2em;
 }
 
-#navfooter {
-    padding: 0 !important;
-    
-}
-/* Boutton MarkeUp more info */
-.btn_markup
-{
-    border-radius: 10px;
-}
-.maps
-{
-    margin: 5%;
-}
-.text_markup
-{
-    font-weight: bold;
-}
-.img_markup
-{
-    margin-left: 25%;
-}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -286,8 +265,8 @@ body {
 
 }
 
-/* quotes width <768px */
 
+/* about us */
 
 blockquote
 {
