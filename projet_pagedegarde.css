@@ -13,13 +13,14 @@
 #conteneur
 {
     display: flex;
+    color: inherit;
 }
 h2
 {
     font-family: 'PoliceTitre';
     text-align: center;
     font-size: 4em;
-    color: #003EC2;
+    color:#00ADB5;
 }
 
 
@@ -235,9 +236,6 @@ blockquote
 }
 .sousTitre
 {
-    font-style: italic;
-    margin-bottom: 1%;
-    margin-left: 50%;
     font-family: 'PoliceTexte';
     font-size: 1em;
     padding-top: 3%;
@@ -288,7 +286,6 @@ blockquote
     }
 
 }
-
 
 .bg_white {
     background-color: #EEEEEE;
