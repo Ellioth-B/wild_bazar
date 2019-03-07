@@ -246,6 +246,27 @@ label {
     padding-top: 2em;
 }
 
+#navfooter {
+    padding: 0 !important;
+    
+}
+/* Boutton MarkeUp more info */
+.btn_markup
+{
+    border-radius: 10px;
+}
+.maps
+{
+    margin: 5%;
+}
+.text_markup
+{
+    font-weight: bold;
+}
+.img_markup
+{
+    margin-left: 25%;
+}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -258,27 +279,11 @@ label {
     background-color: white;
 }
 
-body {
-<<<<<<< HEAD
-    background-color:white;
-
-}
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
-=======
-    background-color: #393E46;
+body 
 }
 
+/* quotes width <768px */
 
-/* about us */
 
 blockquote
 {
@@ -290,4 +295,6 @@ blockquote
   padding-left: 8px;
   
 }
->>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
+.btn_markup.btn-outline-secondary{
+    color:black;
+}
