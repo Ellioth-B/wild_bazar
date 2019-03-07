@@ -217,15 +217,7 @@ label {
     margin-right: 2%;
     margin-bottom: 1%;
 }
-blockquote
-{
-  font-style: normal;
-  font-size: 1em;
-  margin-left: 50%;
-  font-family: Consolas, "PoliceTexte";
-  border-left: 4px solid #00ADB5;
-  padding-left: 8px;
-}
+
 .about
 {
     font-family: 'PoliceTexte'
@@ -288,6 +280,7 @@ blockquote
 }
 
 body {
+<<<<<<< HEAD
     background-color:white;
 
 }
@@ -301,3 +294,21 @@ body {
         background-color: black;
         color: white ;
     }
+=======
+    background-color: #393E46;
+}
+
+/* quotes width <768px */
+
+
+blockquote
+{
+  font-style: normal;
+  font-size: 1em;
+  margin-left: -5px;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+  
+}
+>>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
