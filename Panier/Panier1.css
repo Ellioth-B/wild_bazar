@@ -1,0 +1,32 @@
+@font-face {
+font-family: 'PoliceTitre';
+src: url('assets/font/Nau Sea.otf');
+}
+@font-face {
+font-family: 'PoliceTexte';
+src: url('assets/font/TarponMotel.ttf');
+}
+legend
+{
+font-family: 'PoliceTexte';	
+}
+.col-lg-3, th, label
+{
+font-family: 'PoliceTexte';	
+}
+.btn.btn-primary
+{
+background: #00ADB5;
+}
+.well.form-inline.pull-left.col-lg-5
+{
+box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+margin-top: 0.5em;
+
+}
+
+body{
+    background: image:url(asset/image/Technologie.jpeg) 
+}

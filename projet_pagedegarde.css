@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: 'PoliceTexte';
-    src: url('assets/font/TarponMotel.ttf');
+    src: url('assets/font/Hind-Light.ttf');
 }
 
 #conteneur
@@ -20,7 +20,7 @@ h2
     font-family: 'PoliceTitre';
     text-align: center;
     font-size: 4em;
-    color:#00ADB5;
+    color:black;
 }
 
 
@@ -41,33 +41,28 @@ h2
 {
     font-family: 'PoliceTexte';
     font-size: 1.4em;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 .card-body.emi
 {
     background-color: white;
 }
 
-.card, .container, .card-footer
-{
-    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
--moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
--webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-}
+
 .add-to-cart
 {
     border-radius: 10px;
-    background-color: #393E46;
-    color:#00ADB5;
+    background-color: white;
+    color:black;
 }
 .quantiteEmi
 {
-    color:#00ADB5;
+    color:black;
 }
 #qt
 {
     font-size: 0.7em;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 .container.mt-4.emi
 {
@@ -90,7 +85,7 @@ label {
 }
 
 #visitcard a {
-color:white;
+    color:white;
 }
 
 /* Contact form screen < md */
@@ -107,7 +102,7 @@ color:white;
 .barre {
     justify-content: center;
     padding-top: 0.6em;
-    color: white;
+    color: #00ADB5;
     
 }
 
@@ -117,16 +112,16 @@ color:white;
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: #00ADB5;
-    color: #EEEEEE;
+    background-color: black;
+    color: white;
     border: solid;
-    text-decoration: #EEEEEE;
+    text-decoration: #00ADB5;
 }
 
 /* Defini la couleur du bouton search*/
 .btn_search {
-    color: #EEEEEE;
-    color: #00ADB5;
+    outline-color: #00ADB5;
+    color: black;
     font-family: 'PoliceTitre';
 }
 /* enleve les couleurs de bases bleu/violet des liens */
@@ -136,7 +131,7 @@ color:white;
 
 /*Fixe la couleur sur le nom du logo*/
 .brand_name {
-    color:#00ADB5 !important;
+    color:black !important;
 }
 
 /*supprime le logo en version mobile*/
@@ -148,53 +143,54 @@ color:white;
         height: 70%;
         width: 70%;
     }
-      
+    
 }
 
 /* couleur de fond*/
 .bg_nav {
-    background-color: #222831;
+    background-color: white;
 }
 
 /*couleur de fond test carousel*/
 .bg_carousel {
-    background-color: #393E46;
+    background-color:white;
 }
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
     font-size: 1.2em;
-    color: #00ADB5 !important;
+    color: black !important;
 }
 
-.title_police {
+.title_police, .about_title, .Top.Selling, .nav-link {
     font-family: 'PoliceTitre';
-    color : #00ADB5;
+    color : black;
+    text-shadow : 2px 2px 5px #aaa;
 }
 
 .police_about_us {
-    color: #EEEEEE;
+    color: black;
 }
 
 .nav_font:hover {
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: #00ADB5;
     
 }
 
 .ligneHaut {
-    border-bottom: solid 2px #EEEEEE;
+    border-bottom: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 
 .ligneBas {
-    border-top: solid 2px #EEEEEE;
+    border-top: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 .font_white {
-    color: white;
+    color: #00ADB5;
 }
 .font_bleu {
     color: #00ADB5;
@@ -221,15 +217,7 @@ color:white;
     margin-right: 2%;
     margin-bottom: 1%;
 }
-blockquote
-{
-  font-style: normal;
-  font-size: 1em;
-  margin-left: 50%;
-  font-family: Consolas, "PoliceTexte";
-  border-left: 4px solid #00ADB5;
-  padding-left: 8px;
-}
+
 .about
 {
     font-family: 'PoliceTexte'
@@ -241,16 +229,16 @@ blockquote
     padding-top: 3%;
     padding-bottom: 0.1em;
     font-weight: bold;
-    color: #EEEEEE;
+    color: black;
 
 }
 
 /* taille image footer */
 @media(max-width:991.98px){
     #logobot {
-    width: 10em;
-    height:10em;
-    margin-left: 5%;
+        width: 10em;
+        height:10em;
+        margin-left: 5%;
     }
 }
 
@@ -258,10 +246,6 @@ blockquote
     padding-top: 2em;
 }
 
-#navfooter {
-    padding: 0 !important;
-    
-}
 
 @media(max-width:991.98px){
     #logomarkup{
@@ -271,9 +255,42 @@ blockquote
 }
 
 .bg_white {
-    background-color: #EEEEEE;
+    background-color: white;
 }
 
 body {
+<<<<<<< HEAD
+    background-color:white;
+
+}
+.center{
+    width: 150px;
+      margin: 10px auto;
+      
+    }
+    .input-group-btn
+    {
+        background-color: black;
+        color: white ;
+    }
+=======
     background-color: #393E46;
 }
+<<<<<<< HEAD
+=======
+
+
+/* about us */
+
+blockquote
+{
+  font-style: normal;
+  font-size: 1em;
+  margin-left: -5px;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+  
+}
+>>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
+>>>>>>> ba5971802db30844cc803e0c5f7a110ac80c52c7
