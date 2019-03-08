@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align:left;
     font-size: 1em;
 }
 .card-footer
@@ -271,7 +271,6 @@ label {
 
 
 body {
-<<<<<<< HEAD
     background-color:white;
 
 }
@@ -285,7 +284,6 @@ body {
         background-color: black;
         color: white ;
     }
-=======
     background-color: #393E46;
 }
 
@@ -302,4 +300,17 @@ blockquote
   padding-left: 8px;
   
 }
->>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .collapse {
+        display: none !important;
+    }
+ }
