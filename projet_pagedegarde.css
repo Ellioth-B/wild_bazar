@@ -34,8 +34,9 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align:left;
     font-size: 1em;
+    color: black !important;
 }
 .card-footer
 {
@@ -54,6 +55,7 @@ h2
     border-radius: 10px;
     background-color: white;
     color:black;
+    margin-top: 1em;
 }
 .quantiteEmi
 {
@@ -112,7 +114,8 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: black;
+    background-color:black;
+    opacity:0.6 ;
     color: white;
     border: solid;
     text-decoration: #00ADB5;
@@ -196,7 +199,11 @@ label {
     margin-left: 25%;
 }
 .font_white {
-    color: #00ADB5;
+    color:#00ADB5;
+    font-family: 'PoliceTexte';
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    font-style: italic;
 }
 .font_bleu {
     color: #00ADB5;
@@ -205,6 +212,9 @@ label {
 /* decale les morceaux 'categories' pour les centrer avec le logo*/
 .navbar_gap {
     padding-top: 2em;
+}
+.searching{
+    vertical-align: top;
 }
 
 /* Carousel OMAR*/
@@ -273,25 +283,20 @@ label {
     border: 3px #00ADB5 outset;
 }
 
+.btn_markup {
+    margin-left: 1.5em;
+}
 
+.btn_minus, .btn_plus {
+    color: black;
+    font-family: 'PoliceTitre';
+}
 
 
 
 body {
     background-color:white;
 }
-
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
-
 
 
 /* about us */
@@ -306,3 +311,25 @@ blockquote
   padding-left: 8px;
   
 }
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (max-width: 1200px){
+    .searching
+     {
+        display: none !important;
+    }
+ }
+
+ .noufnouf {
+     white-space:nowrap;
+ }
+ .car_qt {
+     width: 2em;
+ }
