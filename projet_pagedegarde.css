@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align:left;
     font-size: 1em;
 }
 .card-footer
@@ -125,6 +125,11 @@ label {
     color: black;
     font-family: 'PoliceTitre';
 }
+
+.btn_search:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+}
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
     color: inherit;
@@ -171,6 +176,7 @@ label {
 
 .police_about_us {
     color: black;
+    padding-bottom: 0.7em;
 }
 
 .nav_font:hover {
@@ -221,7 +227,8 @@ label {
 
 .about
 {
-    font-family: 'PoliceTexte'
+    font-family: 'PoliceTexte';
+    padding-bottom: 1.2em;
 }
 .sousTitre
 {
@@ -273,7 +280,6 @@ label {
 
 body {
     background-color:white;
-
 }
 
 
@@ -289,3 +295,17 @@ blockquote
   padding-left: 8px;
   
 }
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .collapse {
+        display: none !important;
+    }
+ }
