@@ -333,3 +333,7 @@ blockquote
  .car_qt {
      width: 2em;
  }
+.card img{
+    width: auto;
+    height: auto;
+}
