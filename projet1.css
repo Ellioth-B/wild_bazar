@@ -14,6 +14,19 @@ h1 {
     margin-left: -15px;
 }
 
+.ligneHaut {
+    border-bottom: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.font_white {
+    color:#00ADB5 !important;
+    font-family: 'PoliceTexte';
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    font-style: italic;
+}
 
 #conteneur
 {
@@ -57,10 +70,6 @@ h5
     color: white;
     font-size:2em;
     padding-left: 10%;
-}
-.nav .nav-item .nav-link {
-
-    color:white !important;
 }
 
 label {
@@ -128,8 +137,7 @@ color:white !important;
    font-family: 'PoliceTexte';
    font-size: 35px;
    color: red;
-   font font-style: bold;
-   
+   font-style: bold;
 
 }
 
@@ -311,4 +319,8 @@ color:white !important;
     #logomarkup{
         display:none;
     }
+}
 
+.nav_font {
+    color: black;
+}
