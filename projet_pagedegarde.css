@@ -207,6 +207,9 @@ label {
 .navbar_gap {
     padding-top: 2em;
 }
+.searching{
+    vertical-align: top;
+}
 
 /* Carousel OMAR*/
 .card-text{
@@ -304,8 +307,13 @@ blockquote
 
 /* Navbar collapse*/
 
-@media (min-width: 768px) and (max-width: 1200px) {
-    .collapse {
+@media (max-width: 1200px){
+    .searching
+     {
         display: none !important;
     }
+ }
+
+ nav ul {
+     white-space:nowrap;
  }
