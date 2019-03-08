@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align:left;
     font-size: 1em;
 }
 .card-footer
@@ -293,7 +293,6 @@ body {
     }
 
 
-
 /* about us */
 
 blockquote
@@ -306,3 +305,17 @@ blockquote
   padding-left: 8px;
   
 }
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .collapse {
+        display: none !important;
+    }
+ }
