@@ -264,6 +264,18 @@ label {
 .bg_white {
     background-color: white;
 }
+.btn_markup.btn-outline-secondary
+{
+    border-style: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+    background-color: white;
+    border: 3px #00ADB5 outset;
+}
+
+
+
+
 
 body {
     background-color:white;
