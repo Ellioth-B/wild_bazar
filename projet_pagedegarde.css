@@ -112,7 +112,8 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: black;
+    background-color:black;
+    opacity:0.6 ;
     color: white;
     border: solid;
     text-decoration: #00ADB5;
@@ -271,22 +272,8 @@ label {
 
 
 body {
-<<<<<<< HEAD
     background-color:white;
 
-}
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
-=======
-    background-color: #393E46;
 }
 
 
@@ -302,4 +289,3 @@ blockquote
   padding-left: 8px;
   
 }
->>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
