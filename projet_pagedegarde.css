@@ -114,9 +114,9 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color:black;
+   
     opacity:0.6 ;
-    color: white;
+    
     border: solid;
     text-decoration: #00ADB5;
 }
@@ -333,3 +333,18 @@ blockquote
  .car_qt {
      width: 2em;
  }
+
+
+ .text-center{
+     margin-left: -15px;
+ }
+
+ .navbar-toggler-icon {
+     border-radius:10px ;
+     background-color:#00ADB5;
+ }
+
+ .navbar-toggler {
+     border-radius :10px;
+     background-color:#00ADB5;
+ }r
