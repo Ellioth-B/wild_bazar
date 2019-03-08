@@ -126,6 +126,11 @@ label {
     font-family: 'PoliceTitre';
     font-size: 1.5em;
 }
+
+.btn_search:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+}
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
     color: inherit;
@@ -172,6 +177,7 @@ label {
 
 .police_about_us {
     color: black;
+    padding-bottom: 0.7em;
 }
 
 .nav_font:hover {
@@ -222,7 +228,8 @@ label {
 
 .about
 {
-    font-family: 'PoliceTexte'
+    font-family: 'PoliceTexte';
+    padding-bottom: 1.2em;
 }
 .sousTitre
 {
@@ -264,21 +271,7 @@ body {
     background-color:white;
 
 }
-<<<<<<< HEAD
-=======
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
- 
-}
->>>>>>> hofix/bestsellers
+
 
 
 /* about us */
