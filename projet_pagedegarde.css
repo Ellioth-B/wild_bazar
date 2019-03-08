@@ -34,7 +34,7 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: center;
+    text-align:left;
     font-size: 1em;
 }
 .card-footer
@@ -112,7 +112,8 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: black;
+    background-color:black;
+    opacity:0.6 ;
     color: white;
     border: solid;
     text-decoration: #00ADB5;
@@ -123,6 +124,11 @@ label {
     outline-color: #00ADB5;
     color: black;
     font-family: 'PoliceTitre';
+}
+
+.btn_search:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
 }
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
@@ -170,6 +176,7 @@ label {
 
 .police_about_us {
     color: black;
+    padding-bottom: 0.7em;
 }
 
 .nav_font:hover {
@@ -220,7 +227,8 @@ label {
 
 .about
 {
-    font-family: 'PoliceTexte'
+    font-family: 'PoliceTexte';
+    padding-bottom: 1.2em;
 }
 .sousTitre
 {
@@ -257,27 +265,22 @@ label {
 .bg_white {
     background-color: white;
 }
+.btn_markup.btn-outline-secondary
+{
+    border-style: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+    background-color: white;
+    border: 3px #00ADB5 outset;
+}
+
+
+
+
 
 body {
-<<<<<<< HEAD
     background-color:white;
-
 }
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
-=======
-    background-color: #393E46;
-}
-<<<<<<< HEAD
-=======
 
 
 /* about us */
@@ -292,5 +295,17 @@ blockquote
   padding-left: 8px;
   
 }
->>>>>>> 35b01408dda24f225f7184694724a1ade435e09f
->>>>>>> ba5971802db30844cc803e0c5f7a110ac80c52c7
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .collapse {
+        display: none !important;
+    }
+ }
