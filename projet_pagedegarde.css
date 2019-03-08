@@ -36,6 +36,7 @@ h2
     font-family: 'PoliceTexte';
     text-align:left;
     font-size: 1em;
+    color: black !important;
 }
 .card-footer
 {
@@ -54,6 +55,7 @@ h2
     border-radius: 10px;
     background-color: white;
     color:black;
+    margin-top: 1em;
 }
 .quantiteEmi
 {
@@ -197,7 +199,11 @@ label {
     margin-left: 25%;
 }
 .font_white {
-    color: #00ADB5;
+    color:#00ADB5;
+    font-family: 'PoliceTexte';
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    font-style: italic;
 }
 .font_bleu {
     color: #00ADB5;
@@ -277,7 +283,14 @@ label {
     border: 3px #00ADB5 outset;
 }
 
+.btn_markup {
+    margin-left: 1.5em;
+}
 
+.btn_minus, .btn_plus {
+    color: black;
+    font-family: 'PoliceTitre';
+}
 
 
 
@@ -316,4 +329,7 @@ blockquote
 
  nav ul {
      white-space:nowrap;
+ }
+ .car_qt {
+     width: 2em;
  }
