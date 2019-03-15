@@ -1,0 +1,420 @@
+/* Unicolor footer text */
+/*Top selling Emilie */
+
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('assets/font/Nau Sea.otf');
+}
+@font-face {
+    font-family: 'PoliceTexte';
+    src: url('assets/font/Hind-Light.ttf');
+}
+
+#conteneur
+{
+    display: flex;
+    color: inherit;
+}
+h2
+{
+    font-family: 'PoliceTitre';
+    text-align: center;
+    font-size: 4em;
+    color:black;
+}
+
+.ecart {
+    padding-left: 10em;
+}
+
+
+.accroche
+{
+    font-family: 'PoliceTexte';
+    text-align: center;
+    font-size: 2em;
+}
+.card-text
+{
+    font-family: 'PoliceTexte';
+    text-align:left;
+    font-size: 1em;
+    color: black !important;
+}
+.card-footer
+{
+    font-family: 'PoliceTexte';
+    font-size: 1.4em;
+    background-color: white;
+}
+.card-body.emi
+{
+    background-color: white;
+}
+
+
+.add-to-cart
+{
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    margin-top: 1em;
+}
+.quantiteEmi
+{
+    color:black;
+}
+#qt
+{
+    font-size: 0.7em;
+    background-color: white;
+}
+.container.mt-4.emi
+{
+    padding-bottom: 11px;
+}
+
+/*FOOTER REMY*/
+#contact{
+
+    text-align:center;
+    color: white;
+    font-size:2em;
+    padding-left: 10%;
+}
+
+
+label {
+
+    color:white;
+}
+
+#visitcard a {
+    color:white;
+}
+
+/* Contact form screen < md */
+
+@media(max-width:991.98px){
+    #footcontact{
+        display:none;
+    }
+}
+
+/*//////////////////////////////////////////////////NAVBAR VALENTIN//////////////////////////////////////////////////*/
+
+/* barre separant les categories navbar */
+.barre {
+    justify-content: center;
+    padding-top: 0.6em;
+    color: #00ADB5;
+    
+}
+
+.logo {
+    padding-top: 1.2em;
+    padding-bottom: 0.9em;
+}
+/* couleur bouton burger */
+.btn_nav {
+   
+    opacity:0.6 ;
+    
+    border: solid;
+    text-decoration: #00ADB5;
+}
+
+/* Defini la couleur du bouton search*/
+.btn_search {
+    outline-color: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+}
+
+.btn_search:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+}
+/* enleve les couleurs de bases bleu/violet des liens */
+.navbar_position a {
+    color: inherit;
+}
+
+/*Fixe la couleur sur le nom du logo*/
+.brand_name {
+    color:black !important;
+}
+
+/*supprime le logo en version mobile*/
+@media(max-width:991.98px){
+    .barre {
+        display:none;
+    }
+    .logo {
+        height: 70%;
+        width: 70%;
+    }
+    
+}
+
+/* couleur de fond*/
+.bg_nav {
+    background-color: white;
+}
+
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color:white;
+}
+/* fixe la police et couleur des categories navbar*/
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.2em;
+    color: black !important;
+}
+
+.title_police, .about_title, .Top.Selling, .nav-link {
+    font-family: 'PoliceTitre';
+    color : black;
+    text-shadow : 2px 2px 5px #aaa;
+}
+
+.police_about_us {
+    color: black;
+    padding-bottom: 0.7em;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+    
+}
+
+.ligneHaut {
+    border-bottom: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ligneBas {
+    border-top: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+.font_white {
+    color:#00ADB5;
+    font-family: 'PoliceTexte';
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    font-style: italic;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_gap {
+    padding-top: 2em;
+}
+.searching{
+    vertical-align: top;
+}
+
+
+
+/* Carousel OMAR*/
+.card-text{
+    color: grey;
+    font-size: 15px;
+}
+.card-body{
+    background-color: #2A2C2C;
+}
+/* ABOUT US - Elliot */
+
+.about_logo
+{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.about
+{
+    font-family: 'PoliceTexte';
+    padding-bottom: 1.2em;
+}
+.sousTitre
+{
+    font-family: 'PoliceTexte';
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    color: black;
+
+}
+
+/* taille image footer */
+@media(max-width:991.98px){
+    #logobot {
+        width: 10em;
+        height:10em;
+        margin-left: 5%;
+    }
+}
+
+.logo_gap {
+    padding-top: 2em;
+}
+
+
+@media(max-width:991.98px){
+    #logomarkup{
+        display:none;
+    }
+
+}
+
+.bg_white {
+    background-color: white;
+}
+.btn_markup.btn-outline-secondary
+{
+    border-style: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+    background-color: white;
+    border: 3px #00ADB5 outset;
+}
+
+.btn_markup {
+    margin-left: 1.5em;
+}
+
+.btn_minus, .btn_plus {
+    color: black;
+    font-family: 'PoliceTitre';
+}
+
+
+
+body {
+    background-color:white;
+}
+
+
+/* about us */
+
+blockquote
+{
+  font-style: normal;
+  font-size: 1em;
+  margin-left: -5px;
+  font-family: Consolas, "PoliceTexte";
+  border-left: 4px solid #00ADB5;
+  padding-left: 8px;
+  
+}
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (max-width: 1200px){
+    .searching
+     {
+        display: none !important;
+    }
+ }
+
+ .noufnouf {
+     white-space:nowrap;
+ }
+ .car_qt {
+     width: 2em;
+ }
+
+
+ .text-center{
+     margin-left: -15px;
+ }
+
+ .navbar-toggler-icon {
+     border-radius:10px ;
+     background-color:#00ADB5;
+ }
+
+ .navbar-toggler {
+     border-radius :10px;
+     background-color:#00ADB5;
+ }
+
+ .emilie {
+     padding-left: 10em;
+ }
+
+
+ /* Ttile animated Valentin */
+ @import url(https://fonts.googleapis.com/css?family=Jura);
+body{
+  font-family:'Jura';
+  background:#fff;
+  margin:0;
+  padding:0;
+}
+section{
+  height:100vh;
+  width:100vw;
+}
+.content{
+  position:relative;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%, -50%);
+}
+.logo{
+  position:relative;
+  left:50%;
+  margin-top:10px;
+  margin-left:-121px;
+  background:transparent;
+}
+.desc{
+  font-size:1em;
+  color:#000;
+  text-align:center;
+  text-transform:uppercase;
+  opacity:0;
+  letter-spacing:-5px;
+  animation: letterSpacing 1.5s ease-in-out 3.5s;
+  -webkit-animation: letterSpacing 1.5s ease-in-out 3.5s;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+  margin-left: 5.5em;
+}
+@keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}
+@-webkit-keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}

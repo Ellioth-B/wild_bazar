@@ -23,6 +23,9 @@ h2
     color:black;
 }
 
+.ecart {
+    padding-left: 10em;
+}
 
 
 .accroche
@@ -34,8 +37,9 @@ h2
 .card-text
 {
     font-family: 'PoliceTexte';
-    text-align: left;
+    text-align:left;
     font-size: 1em;
+    color: black !important;
 }
 .card-footer
 {
@@ -54,6 +58,7 @@ h2
     border-radius: 10px;
     background-color: white;
     color:black;
+    margin-top: 1em;
 }
 .quantiteEmi
 {
@@ -101,9 +106,8 @@ label {
 /* barre separant les categories navbar */
 .barre {
     justify-content: center;
+    padding-top: 0.6em;
     color: #00ADB5;
-    font-size: 1.5em;
-    padding-top: 0.2em;
     
 }
 
@@ -113,8 +117,9 @@ label {
 }
 /* couleur bouton burger */
 .btn_nav {
-    background-color: black;
-    color: white;
+   
+    opacity:0.6 ;
+    
     border: solid;
     text-decoration: #00ADB5;
 }
@@ -124,7 +129,11 @@ label {
     outline-color: #00ADB5;
     color: black;
     font-family: 'PoliceTitre';
-    font-size: 1.5em;
+}
+
+.btn_search:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
 }
 /* enleve les couleurs de bases bleu/violet des liens */
 .navbar_position a {
@@ -160,7 +169,7 @@ label {
 /* fixe la police et couleur des categories navbar*/
 .nav_font {
     font-family: 'PoliceTitre';
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black !important;
 }
 
@@ -172,6 +181,7 @@ label {
 
 .police_about_us {
     color: black;
+    padding-bottom: 0.7em;
 }
 
 .nav_font:hover {
@@ -181,18 +191,22 @@ label {
 }
 
 .ligneHaut {
-    border-bottom: solid 3px #00ADB5;
+    border-bottom: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 
 .ligneBas {
-    border-top: solid 3px #00ADB5;
+    border-top: solid 2px #00ADB5;
     width: 50%;
     margin-left: 25%;
 }
 .font_white {
-    color: black;
+    color:#00ADB5;
+    font-family: 'PoliceTexte';
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    font-style: italic;
 }
 .font_bleu {
     color: #fc9e4f;
@@ -202,6 +216,11 @@ label {
 .navbar_gap {
     padding-top: 2em;
 }
+.searching{
+    vertical-align: top;
+}
+
+
 
 /* Carousel OMAR*/
 .card-text{
@@ -221,7 +240,8 @@ label {
 }
 .about
 {
-    font-family: 'PoliceTexte'
+    font-family: 'PoliceTexte';
+    padding-bottom: 1.2em;
 }
 .sousTitre
 {
@@ -258,26 +278,29 @@ label {
 .bg_white {
     background-color: white;
 }
+.btn_markup.btn-outline-secondary
+{
+    border-style: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+    background-color: white;
+    border: 3px #00ADB5 outset;
+}
+
+.btn_markup {
+    margin-left: 1.5em;
+}
+
+.btn_minus, .btn_plus {
+    color: black;
+    font-family: 'PoliceTitre';
+}
+
+
 
 body {
     background-color:white;
-
 }
-<<<<<<< HEAD
-=======
-.center{
-    width: 150px;
-      margin: 10px auto;
-      
-    }
-    .input-group-btn
-    {
-        background-color: black;
-        color: white ;
-    }
- 
-}
->>>>>>> hofix/bestsellers
 
 
 /* about us */
@@ -292,3 +315,44 @@ blockquote
   padding-left: 8px;
   
 }
+
+
+.input-text {
+    width: 20%;
+}
+
+
+/* Navbar collapse*/
+
+@media (max-width: 1200px){
+    .searching
+     {
+        display: none !important;
+    }
+ }
+
+ .noufnouf {
+     white-space:nowrap;
+ }
+ .car_qt {
+     width: 2em;
+ }
+
+
+ .text-center{
+     margin-left: -15px;
+ }
+
+ .navbar-toggler-icon {
+     border-radius:10px ;
+     background-color:#00ADB5;
+ }
+
+ .navbar-toggler {
+     border-radius :10px;
+     background-color:#00ADB5;
+ }
+
+ .emilie {
+     padding-left: 10em;
+ }
