@@ -1,0 +1,219 @@
+/* Unicolor footer text */
+/*Top selling Emilie */
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('assets/font/Nau Sea.otf');
+}
+@font-face {
+    font-family: 'PoliceTexte';
+    src: url('assets/font/TarponMotel.ttf');
+}
+
+#conteneur
+{
+	display: flex;
+}
+h2
+{
+	font-family: 'PoliceTitre';
+	text-align: center;
+	font-size: 4em;
+	color:#003EC2;
+}
+h5
+{
+	font-family: 'PoliceTitre';
+	text-align: center;
+	font-size: 2em;
+}
+
+.accroche
+{
+	font-family: 'PoliceTexte';
+	text-align: center;
+	font-size: 2em;
+}
+.card-text
+{
+	font-family: 'PoliceTexte';
+	text-align: center;
+	font-size: 1em;
+}
+.card-footer
+{
+	font-family: 'PoliceTexte';
+	font-size: 2em;
+}
+/*FOOTER REMY*/
+#contact{
+
+    text-align:center;
+    color: white;
+    font-size:2em;
+    padding-left: 10%;
+}
+.nav .nav-item .nav-link {
+
+    color:white !important;
+}
+
+label {
+
+    color:white;
+}
+
+
+/* Contact form screen < md */
+
+@media(max-width:991.98px){
+    #footcontact{
+        display:none;
+    }
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////PAGE 2 MEHDI//////////////////////////////////////////////////*/
+
+/* CSS PAGE 2 MEHDI */
+
+.image1
+
+{
+
+padding-bottom: 2%;
+
+}
+
+.image2
+
+{
+
+padding-bottom: 6%;
+
+}
+
+.image3
+
+{
+
+padding-bottom: 17%;
+
+}
+
+.ecart_top {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.blockquote {
+
+color:white !important;
+
+}
+
+.nosto-product-price
+
+{
+
+   font-family: 'PoliceTexte';
+   font-size: 35px;
+   color: red;
+   font font-style: bold;
+   
+
+}
+
+
+
+
+/*//////////////////////////////////////////////////NAVBAR VALENTIN//////////////////////////////////////////////////*/
+
+/* barre separant les categories navbar */
+
+.barre {
+    justify-content: center;
+    padding-top: 0.6em;
+    color: white;
+    
+}
+
+.logo {
+    padding-top: 1.2em;
+    padding-bottom: 0.9em;
+}
+/* couleur bouton burger */
+.btn_nav {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border: solid;
+    text-decoration: #EEEEEE;
+}
+
+/* Defini la couleur du bouton search*/
+.btn_search {
+    color: #EEEEEE;
+}
+/* enleve les couleurs de bases bleu/violet des liens */
+.navbar_position a {
+    color: inherit;
+}
+
+/*Fixe la couleur sur le nom du logo*/
+.brand_name {
+    color:#00ADB5 !important;
+}
+
+/*supprime le logo en version mobile*/
+@media(max-width:991.98px){
+    .barre {
+        display:none;
+    }
+    .logo {
+        height: 70%;
+        width: 70%;
+    }
+      
+}
+
+/* couleur de fond*/
+.bg_nav {
+    background-color: #222831;
+}
+
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color: #393E46;
+}
+/* fixe la police et couleur des categories navbar*/
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.2em;
+    color: #00ADB5;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+hr {
+    color:#00ADB5;
+    border: solid 2px #00ADB5;
+    width: 50%;
+}
+.font_white {
+    color: white;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_position {
+    padding-top: 2em;
+}

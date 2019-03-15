@@ -1,0 +1,206 @@
+
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('assets/font/Nau Sea.otf');
+}
+@font-face {
+    font-family: 'PoliceTexte';
+    src: url('assets/font/Hind-Light.ttf');}
+body{
+    font-family: 'PoliceTexte';
+background-color: white;
+}
+.card {
+	text-align: center;
+    margin-bottom: 2em;
+    border-style: none !important;
+}
+.container-Fluid
+{padding: 0 ! important;
+}
+.SAV
+{
+	height: 15%;
+    padding-left: 7em;
+    padding-bottom: 3em;
+	background-color: white;
+}
+h1.sav
+{
+  font-family: 'PoliceTitre';
+  padding-top: 1%;
+  padding-left: 35%;
+  margin: 0;
+ }
+.container-fluid.mt-4
+{
+font-size: 1.4em;
+background-color: white;
+padding-right: 1%;
+padding-left: 1%;
+}
+
+.emilie {
+    padding-left: 10em;
+}
+
+.card.col-6
+{
+
+	display: flex;
+    width: 100%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.btn,  .btn_markup.btn-outline-secondary
+{
+    border-style: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+    background-color: white;
+    border: 3px #00ADB5 outset;
+}
+.barre {
+    justify-content: center;
+    padding-top: 0.6em;
+    color: #00ADB5;
+    
+}
+
+.logo {
+    padding-top: 1.2em;
+    padding-bottom: 0.9em;
+}
+/* couleur bouton burger */
+.btn_nav {
+    background-color: black;
+    color: white;
+    border: solid;
+    text-decoration: #00ADB5;
+}
+
+/* Defini la couleur du bouton search*/
+.btn_search {
+    outline-color: #00ADB5;
+    color: black;
+    font-family: 'PoliceTitre';
+}
+/* enleve les couleurs de bases bleu/violet des liens */
+.navbar_position a {
+    color: inherit;
+}
+
+/*Fixe la couleur sur le nom du logo*/
+.brand_name {
+    color:black !important;
+}
+
+/*supprime le logo en version mobile*/
+@media(max-width:991.98px){
+    .barre {
+        display:none;
+    }
+    .logo {
+        height: 70%;
+        width: 70%;
+    }
+    
+}
+
+/* couleur de fond*/
+.bg_nav {
+    background-color: white;
+}
+
+/*couleur de fond test carousel*/
+.bg_carousel {
+    background-color:white;
+}
+/* fixe la police et couleur des categories navbar*/
+.nav_font {
+    font-family: 'PoliceTitre';
+    font-size: 1.2em;
+    color: black !important;
+}
+
+.title_police, .about_title, .Top.Selling, .nav-link {
+    font-family: 'PoliceTitre';
+    color : black;
+    text-shadow : 2px 2px 5px #aaa;
+}
+
+.police_about_us {
+    color: black;
+}
+
+.nav_font:hover {
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+    
+}
+
+.ligneHaut {
+    border-bottom: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ligneBas {
+    border-top: solid 2px #00ADB5;
+    width: 50%;
+    margin-left: 25%;
+}
+.font_white {
+    color: #00ADB5;
+}
+.font_bleu {
+    color: #00ADB5;
+}
+
+/* decale les morceaux 'categories' pour les centrer avec le logo*/
+.navbar_gap {
+    padding-top: 2em;
+}
+/* taille image footer */
+@media(max-width:991.98px){
+    #logobot {
+        width: 10em;
+        height:10em;
+        margin-left: 5%;
+    }
+}
+
+.logo_gap {
+    padding-top: 2em;
+}
+
+
+}
+/* Boutton MarkeUp more info */
+.btn_markup
+{
+    border-radius: 10px;
+}
+.maps
+{
+    margin: 5%;
+}
+.text_markup
+{
+    font-weight: bold;
+}
+.img_markup
+{
+    margin-left: 25%;
+}
+
+@media(max-width:991.98px){
+    #logomarkup{
+        display:none;
+    }
+}
