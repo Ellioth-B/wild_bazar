@@ -81,7 +81,9 @@
   <div class="container-fluid bg_carousel">
     <div class="col-lg-12">
       <h2 class="text-center title_police">WildWare</h2>
-      <p class="text-center font_white">" Nous donnons vie a la technologie ! "</p>
+      <div class="container">
+      <div class="text-center font_white bambi"></div>
+      </div>
     </div>
   </div>
 
@@ -412,31 +414,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
-    <script>
-      var incrementPlus;
-      var incrementMinus;
-
-      var buttonPlus = $(".cart-qty-plus");
-      var buttonMinus = $(".cart-qty-minus");
-
-      var incrementPlus = buttonPlus.click(function () {
-        var $n = $(this)
-          .parent(".button-container")
-          .parent(".container")
-          .find(".qty");
-        $n.val(Number($n.val()) + 1);
-      });
-
-      var incrementMinus = buttonMinus.click(function () {
-        var $n = $(this)
-          .parent(".button-container")
-          .parent(".container")
-          .find(".qty");
-        var amount = Number($n.val());
-        if (amount > 0) {
-          $n.val(amount - 1);
-        }
-      });</script>
+    <script src="projet_pagedegarde.js"></script>
+      
 </body>
 
 </html>
