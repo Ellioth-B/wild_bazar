@@ -1,6 +1,15 @@
 /* Unicolor footer text */
 /*Top selling Emilie */
 
+@import url(https://fonts.googleapis.com/css?family=Jura);
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Jura Regular'), local('Jura-Regular'), url(https://fonts.gstatic.com/s/jura/v10/z7NbdRfiaC4VXcRJVA.ttf) format('truetype');
+  }
+
 @font-face {
     font-family: 'PoliceTitre';
     src: url('assets/font/Nau Sea.otf');
@@ -8,6 +17,9 @@
 @font-face {
     font-family: 'PoliceTexte';
     src: url('assets/font/Hind-Light.ttf');
+}
+.bambi {
+    font-family: 'Jura' !important;
 }
 
 #conteneur
@@ -358,6 +370,7 @@ blockquote
      padding-left: 10em;
  }
 
+<<<<<<< HEAD
  /* titre animated valentin */
  @import url(https://fonts.googleapis.com/css?family=Jura);
 
@@ -409,3 +422,5 @@ blockquote
     opacity:1;
   }
 }
+=======
+>>>>>>> 545d631c634b84fbc1891aae11acee98d818292b
