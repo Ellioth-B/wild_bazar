@@ -111,7 +111,8 @@ label {
     
 }
 
-.logo {
+.logoNav
+ {
     padding-top: 1.2em;
     padding-bottom: 0.9em;
 }
@@ -150,7 +151,7 @@ label {
     .barre {
         display:none;
     }
-    .logo {
+    .logoNav {
         height: 70%;
         width: 70%;
     }
@@ -356,3 +357,55 @@ blockquote
  .emilie {
      padding-left: 10em;
  }
+
+ /* titre animated valentin */
+ @import url(https://fonts.googleapis.com/css?family=Jura);
+
+
+.content{
+  position:relative;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%, -50%);
+}
+.logo{
+  position:relative;
+  left:50%;
+  margin-top:10px;
+  margin-left:-121px;
+  background:transparent;
+}
+.desc{
+  font-size:1em;
+  color:#000;
+  text-align:center;
+  text-transform:uppercase;
+  opacity:0;
+  letter-spacing:-5px;
+  animation: letterSpacing 1.5s ease-in-out 3.5s;
+  -webkit-animation: letterSpacing 1.5s ease-in-out 3.5s;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+  margin-left: 5.5em;
+}
+@keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}
+@-webkit-keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}
